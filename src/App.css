@@ -1,7 +1,48 @@
 .Navbar {
-	background-color: blue;
+	/* background-color: blue; */
 	width: 100vw;
 	height: 8vh;
 	display: flex;
 	justify-content: space-around;
+}
+
+.NavButton {
+}
+
+/* LOGIN MODAL */
+
+.accountForm {
+	background-color: aqua;
+	border: 2px solid black;
+	width: 35vw;
+	height: 50vh;
+	margin: auto;
+	margin-top: 15vh;
+}
+.tabLink {
+	background-color: #555;
+	color: white;
+	cursor: pointer;
+	padding: 14px 16px;
+	margin-top: 0;
+	width: 50%;
+	text-align: center;
+}
+.tabLink:hover {
+	background-color: #777;
+}
+.tabHeaders {
+	display: flex;
+	width: 100%;
+}
+.tabContent {
+	padding: 50px;
+	text-align: center;
+}
+.inputGroup {
+	display: flex;
+	flex-direction: column;
+}
+.hide {
+	display: none;
 }
